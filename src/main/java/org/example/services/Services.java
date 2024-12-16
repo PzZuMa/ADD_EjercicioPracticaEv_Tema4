@@ -92,7 +92,7 @@ public class Services {
         return resultado;
     }
 
-
+    //LOS SIGUIENTES METODOS SON PARA PRUEBAS UNITARIAS Y DE CONTROL
     public void borrarUsuarios(){
         try {
             EntityManager em = emf.createEntityManager();
